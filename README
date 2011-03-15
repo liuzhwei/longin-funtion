@@ -1,0 +1,13 @@
+position:
+	1.html file path: /var/http/htdoc/
+	2..cgi file path: /var/http/cgi-bin/
+	3..db  file path: /var/http/cgi-bin/    (datebase file)
+
+must do:
+	1.sudo /var/http/bin/httpd -k start
+	2.sudo chmod 777 filename.db
+	3.sudo chmod 777 cgi-bin/
+
+How to get the filename.cgi file:
+	sudo gcc filename.c -o filename.cgi -l sqlite3
+
